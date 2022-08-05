@@ -35,7 +35,7 @@
   "sourceMap": "83:304:8:-;;;121:74;8:9:-1;5:2;;;30:1;27;20:12;5:2;121:74:8;;;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;121:74:8;;;;;;;;;;;;;;;;179:10;166:3;;:24;;;;;;;;;;;;;;;;;;121:74;83:304;;;;;;",
   "deployedSourceMap": "83:304:8:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;83:304:8;;;;;;;;;;;;;;;;;;;199:186;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;199:186:8;;;;;;;;;;;;;;;;;:::i;:::-;;;291:6;259:3;;;;;;;;;;;:13;;;281:4;259:28;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;259:28:8;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;259:28:8;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;259:28:8;;;;;;;;;;;;;;;;:38;;244:98;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;348:3;;;;;;;;;;;:12;;;361:10;373:6;348:32;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;348:32:8;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;348:32:8;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;348:32:8;;;;;;;;;;;;;;;;;199:186;:::o",
   "source": "pragma solidity ^0.5.0;\n\nimport \"@openzeppelin/contracts/token/ERC20/IERC20.sol\";\n\ncontract DaiFaucet {\n  IERC20 dai;\n\n  constructor(address daiAddress) public {\n    dai = IERC20(daiAddress);\n  }\n\n  function sendDai(uint amount) external {\n    require(\n      dai.balanceOf(address(this)) >= amount, \n      'Not enough dai in the faucet'\n    );\n    dai.transfer(msg.sender, amount);\n  }\n}\n",
-  "sourcePath": "/home/lav/Documents/Backuop/BlockChain/Projects/flashloan_testing/bonus-1-test-flashloan/contracts/DaiFaucet.sol",
+  "sourcePath": "/home/lav/Documents/Backuop/BlockChain/flashloan_testing/bonus-1-test-flashloan/contracts/DaiFaucet.sol",
   "ast": {
     "absolutePath": "project:/contracts/DaiFaucet.sol",
     "exportedSymbols": {
@@ -285,7 +285,7 @@
                                   "name": "this",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 4972,
+                                  "referencedDeclaration": 4976,
                                   "src": "281:4:8",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_contract$_DaiFaucet_$3634",
@@ -431,10 +431,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4901,
-                        4902
+                        4905,
+                        4906
                       ],
-                      "referencedDeclaration": 4902,
+                      "referencedDeclaration": 4906,
                       "src": "244:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -471,7 +471,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4898,
+                          "referencedDeclaration": 4902,
                           "src": "361:3:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -962,10 +962,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                4901,
-                                4902
+                                4905,
+                                4906
                               ],
-                              "referencedDeclaration": 4902,
+                              "referencedDeclaration": 4906,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -1079,7 +1079,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 4972,
+                                          "referencedDeclaration": 4976,
                                           "type": "contract DaiFaucet",
                                           "value": "this"
                                         },
@@ -1218,7 +1218,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4898,
+                                  "referencedDeclaration": 4902,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -1281,7 +1281,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-08-01T11:58:10.718Z",
+  "updatedAt": "2022-08-05T07:06:14.658Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

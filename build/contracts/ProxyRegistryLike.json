@@ -10851,10 +10851,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4901,
-                        4902
+                        4905,
+                        4906
                       ],
-                      "referencedDeclaration": 4902,
+                      "referencedDeclaration": 4906,
                       "src": "8253:7:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -11152,10 +11152,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4901,
-                        4902
+                        4905,
+                        4906
                       ],
-                      "referencedDeclaration": 4902,
+                      "referencedDeclaration": 4906,
                       "src": "8400:7:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -11465,10 +11465,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4901,
-                        4902
+                        4905,
+                        4906
                       ],
-                      "referencedDeclaration": 4902,
+                      "referencedDeclaration": 4906,
                       "src": "8546:7:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -12193,7 +12193,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4898,
+                          "referencedDeclaration": 4902,
                           "src": "9269:3:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -12223,7 +12223,7 @@
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4968,
+                            "referencedDeclaration": 4972,
                             "src": "9289:4:7",
                             "typeDescriptions": {
                               "typeIdentifier": "t_contract$_DssProxyActionsCommon_$3590",
@@ -16004,7 +16004,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4898,
+                            "referencedDeclaration": 4902,
                             "src": "11939:3:7",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -16240,7 +16240,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4898,
+                          "referencedDeclaration": 4902,
                           "src": "12058:3:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -16412,7 +16412,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4898,
+                          "referencedDeclaration": 4902,
                           "src": "12151:3:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -16649,7 +16649,7 @@
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 4898,
+                                "referencedDeclaration": 4902,
                                 "src": "12509:3:7",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
@@ -16679,7 +16679,7 @@
                                   "name": "this",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 4968,
+                                  "referencedDeclaration": 4972,
                                   "src": "12529:4:7",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_contract$_DssProxyActionsCommon_$3590",
@@ -18723,10 +18723,10 @@
                             "name": "require",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              4901,
-                              4902
+                              4905,
+                              4906
                             ],
-                            "referencedDeclaration": 4902,
+                            "referencedDeclaration": 4906,
                             "src": "13894:7:7",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -32957,10 +32957,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                4901,
-                                4902
+                                4905,
+                                4906
                               ],
-                              "referencedDeclaration": 4902,
+                              "referencedDeclaration": 4906,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -33378,10 +33378,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                4901,
-                                4902
+                                4905,
+                                4906
                               ],
-                              "referencedDeclaration": 4902,
+                              "referencedDeclaration": 4906,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -33758,10 +33758,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                4901,
-                                4902
+                                4905,
+                                4906
                               ],
-                              "referencedDeclaration": 4902,
+                              "referencedDeclaration": 4906,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -34775,7 +34775,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4898,
+                                  "referencedDeclaration": 4902,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -34828,7 +34828,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4968,
+                                  "referencedDeclaration": 4972,
                                   "type": "contract DssProxyActionsCommon",
                                   "value": "this"
                                 },
@@ -38864,7 +38864,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 4898,
+                                      "referencedDeclaration": 4902,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -39101,7 +39101,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4898,
+                                  "referencedDeclaration": 4902,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -39252,7 +39252,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4898,
+                                  "referencedDeclaration": 4902,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -39608,7 +39608,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 4898,
+                                          "referencedDeclaration": 4902,
                                           "type": "msg",
                                           "value": "msg"
                                         },
@@ -39661,7 +39661,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 4968,
+                                          "referencedDeclaration": 4972,
                                           "type": "contract DssProxyActionsCommon",
                                           "value": "this"
                                         },
@@ -41667,10 +41667,10 @@
                                         }
                                       ],
                                       "overloadedDeclarations": [
-                                        4901,
-                                        4902
+                                        4905,
+                                        4906
                                       ],
-                                      "referencedDeclaration": 4902,
+                                      "referencedDeclaration": 4906,
                                       "type": "function (bool,string memory) pure",
                                       "value": "require"
                                     },
@@ -44288,7 +44288,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-07-29T08:26:19.831Z",
+  "updatedAt": "2022-08-05T07:04:20.403Z",
   "devdoc": {
     "methods": {}
   },

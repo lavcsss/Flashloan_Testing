@@ -36,8 +36,9 @@ const init = async () => {
   console.log(" Arbitrage ", arbitrage.options.address);
   console.log("Kyber +++++++++++____\n\n\n\n\n\n\n");
   const KtU = await arbitrage.methods.kyberToUniswap(10).send({
-    from: admin,
-    gas: 1000000,
+    from: arbitrage.options.address,
+    gas: 7000000,
+    to: "0x76F4f3cBBA6cA4D4301359d4C0462FE95F82335B",
   });
   console.log("this is the returned address", KtU);
   console.log(await dai.methods.balanceOf(admin).call());

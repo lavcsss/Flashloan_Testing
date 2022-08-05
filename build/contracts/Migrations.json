@@ -59,7 +59,7 @@
   "sourceMap": "34:311:13:-;;;123:50;8:9:-1;5:2;;;30:1;27;20:12;5:2;123:50:13;158:10;150:5;;:18;;;;;;;;;;;;;;;;;;34:311;;;;;;",
   "deployedSourceMap": "34:311:13:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:311:13;;;;;;;;;;;;;;;;;;;;;;;;;;;;;82:36;;;:::i;:::-;;;;;;;;;;;;;;;;;;;58:20;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;240:103;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;240:103:13;;;;;;;;;;;;;;;;;:::i;:::-;;82:36;;;;:::o;58:20::-;;;;;;;;;;;;;:::o;240:103::-;223:5;;;;;;;;;;;209:19;;:10;:19;;;205:26;;;329:9;302:24;:36;;;;205:26;240:103;:::o",
   "source": "pragma solidity >=0.4.21 <0.7.0;\n\ncontract Migrations {\n  address public owner;\n  uint public last_completed_migration;\n\n  constructor() public {\n    owner = msg.sender;\n  }\n\n  modifier restricted() {\n    if (msg.sender == owner) _;\n  }\n\n  function setCompleted(uint completed) public restricted {\n    last_completed_migration = completed;\n  }\n}\n",
-  "sourcePath": "/home/lav/Documents/Backuop/BlockChain/Projects/flashloan_testing/bonus-1-test-flashloan/contracts/Migrations.sol",
+  "sourcePath": "/home/lav/Documents/Backuop/BlockChain/flashloan_testing/bonus-1-test-flashloan/contracts/Migrations.sol",
   "ast": {
     "absolutePath": "project:/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -187,7 +187,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4898,
+                        "referencedDeclaration": 4902,
                         "src": "158:3:13",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -271,7 +271,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4898,
+                        "referencedDeclaration": 4902,
                         "src": "209:3:13",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -653,7 +653,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4898,
+                                  "referencedDeclaration": 4902,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -744,7 +744,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4898,
+                                  "referencedDeclaration": 4902,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -958,12 +958,12 @@
     "42": {
       "events": {},
       "links": {},
-      "address": "0xC38b74F81af800d577A4A0d087fE656C6B2B6C79",
-      "transactionHash": "0x356333106882e706d335bbdf81cf909a5fbba1be9d87aa7db096f79d2fa91fd4"
+      "address": "0x3AdfC4698C219dF0433C67C6A2E9826011903c84",
+      "transactionHash": "0x736183b4fe1d12e7c8da9f5cf7d5f97e4e8301c816e4c7b6e3cf33a91e013981"
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-08-01T11:58:10.719Z",
+  "updatedAt": "2022-08-05T07:06:14.659Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
